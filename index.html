@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueris.css">
+    <title>My portfolio</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Shiva</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Shiva</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="WhatsApp Image 2024-11-24 at 4.43.51 PM.jpeg" alt="shiva profile picture" class="image">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello,I'm</p>
+            <h1 class="title">Shiva</h1>
+            <p class="section__text__p2" style="margin-bottom:7px">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/shivavarmavanaparthi/'">
+                <img src="github.png" alt="My GitHub profile" class="icon" onclick="location.href='https://github.com/Shivavarmavanaparthi'">
+                <img src="pngwing.com.png" alt="My Instagram profile" class="iconinst" onclick="location.href='https://www.instagram.com/musingsunseen/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">about Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="WhatsApp Image 2024-11-30 at 4.31.34 PM.jpeg" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="experience.png" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Self-Learning <br>Full-Stack Developer in Progress</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Bachelors of Engineering <br>Electronics and Communication Engineering</p>
+                    </div>
+        
+                    <div class="details-containers">
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p> Hi there!
+                        I’m currently on an exciting journey to become a Full-Stack Web Developer. My expertise lies in HTML, CSS, JavaScript, and MongoDB, where I’ve built a solid foundation for creating seamless web experiences.
+                        Right now, I’m diving into React, exploring the power of dynamic and interactive user interfaces. As a beginner, I’m loving the challenge and creativity it brings to my projects.
+                        I’m passionate about building web applications that are not only functional but also user-friendly and visually engaging. When I’m not coding, you’ll find me exploring new tools and technologies to expand my skill set and stay up-to-date with the ever-evolving world of web development.</p>
+                </div>`
+            </div>
+        </div>
+        <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <p class="title" style="color: black;">Experience</p>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container" style="margin:10px">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article><img src="checkmark.png" alt="Experience icon" class="icon">
+                        <div>
+                            <head>HTML</head>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article><img src="checkmark.png" alt="Experience icon" class="icon">
+                        <div>
+                            <head>CSS</head>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article><img src="checkmark.png" alt="Experience icon" class="icon">
+                        <div>
+                            <head>Js</head>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article><img src="checkmark.png" alt="Experience icon" class="icon">
+                        <div>
+                            <head>React</head>
+                            <p>Basic</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-container" style="margin: 10px;">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article><img src="checkmark.png" alt="Experience icon" class="icon">
+                        <div>
+                            <head>Node Js</head>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article><img src="checkmark.png" alt="Experience icon" class="icon">
+                        <div>
+                            <head>Express Js</head>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article><img src="checkmark.png" alt="Experience icon" class="icon">
+                        <div>
+                            <head>Git</head>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    </div>
+                </div>
+            </div>
+    <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+
+ </section>
+            <section id="projects">
+                <p id="section__text__p1">
+                 Browse my recent projects
+                </p>
+                <h class="title"> Projects
+                </h>
+                <div class="experience-details-container">
+                    <div class="about-containers">
+                        <div class="details-container" style="text-align: left";>
+                            <h2 class="experience-sub-title">Basic</h2>
+                            <p style="color: black;">>>  Bg color changer</p><br/>
+                            <p style="color: black;">>>  Quiz application</p><br/>
+                            <p style="color: black;">>>  Todo</p><br/>
+                            <p style="color: black;">>>  Form builder</p><br/>
+                        </div>
+                        <div class="details-container" style="text-align: left">
+                            <h2 class="experience-sub-title">Intermediate</h2>
+                            <p style="color: black;">>>  Taskify(Basic)</p><br/>
+                            <p style="color: black;">>>  Course selling application (Backend)</p><br/>
+                        </div>
+                    </div>
+                </div>
+             
+            <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+        </section>
+       
+        <section id="contact" style="text-align: center;">
+            <p id="section__text__p1">Get in touch</p>
+            <h1 class="title" style="margin-bottom: 10px;">Contact me</h1>
+            <div class="details-container" style=" display:flex;flex-direction: row;  align-items: center; justify-content: center; margin: 0 auto; width: 300px;">
+                <div style="display: flex; flex-direction: row;align-items: center;">
+                <img src="email.png" alt="email icon" class="icon" style="width: 24px; height: 24px; margin-right: 10px;">
+                <a href="mailto:mailtoshivavarma@gmail.com" style=" color: black;">Mail id</a>
+            </div>
+            </div>
+      
+        <nav id="desktop-nav" style="margin-top:30px">
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p style="text-align: center; margin: 10px;" >Copyright © 2024 Shiva varma. All Rights Reserved.</p>
+      
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
